@@ -10,7 +10,8 @@ RUN DEBIAN_FRONTEND="noninteractive" \
     && echo '<?php phpinfo();' > /var/www/html/index.php \
     && apt-get clean \
     && apt-get autoclean \
-    && apt-get remove -y 
+    && apt-get remove -y \
+    && rm -rf /var/lib/apt/lists/*
 
 EXPOSE 80 443
 
