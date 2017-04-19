@@ -1,9 +1,8 @@
 FROM clarencep/php7:7.1
 
-# RUN sed 's/archive.ubuntu.com/mirrors.aliyun.com/' -i.bak /etc/apt/sources.list && apt-get update -y
-
 # install apache2
 RUN DEBIAN_FRONTEND="noninteractive" \
+    && sed 's/archive.ubuntu.com/mirrors.aliyun.com/' -i.bak /etc/apt/sources.list \
     && apt-get update -y \
     && apt-get install -y apache2 libapache2-mod-php7.1 \
     && rm -f /var/www/html/index.html \
