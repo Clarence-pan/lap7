@@ -14,4 +14,7 @@ RUN DEBIAN_FRONTEND="noninteractive" \
 
 EXPOSE 80 443
 
-CMD apache2ctl start && bash -c 'tail -f /var/log/apache2/*.log'
+COPY ./apache2-foreground /bin/apache2-foreground
+RUN chmod +x /bin/apache2-foreground
+
+CMD [ "/bin/apache2-foreground" ]
