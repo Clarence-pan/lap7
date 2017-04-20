@@ -24,4 +24,13 @@ As the main `apache2` process doesn't output any logs, if you wanna see the logs
 
 `docker exec <container-name> sh -c "tail -f /var/log/apache2/*"`
 
+# available tags
+
+| tag | linux | apache | php |
+| ---- | --- | --- | --- |
+| lastest | ubuntu 16.04 | 2.x | 7.1 |
+| ubuntu | ubuntu 16.04 | 2.x | 7.1 |
+| centos6 | CentOS 6.x | 2.x | 7.1 |
+| centos7 | CentOS 7.x | 2.x | 7.1 |
+
 
