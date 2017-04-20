@@ -1,4 +1,4 @@
-FROM clarencep/php7:centos7-php7.1
+FROM clarencep/php7:centos6-php7.1
 
 # install httpd
 RUN yum install -y httpd \
