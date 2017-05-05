@@ -1,4 +1,4 @@
-FROM clarencep/php7:7.1
+FROM clarencep/php7:ubuntu
 
 # install apache2
 RUN DEBIAN_FRONTEND="noninteractive" \
