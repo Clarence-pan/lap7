@@ -34,3 +34,7 @@ As the main `apache2` process doesn't output any logs, if you wanna see the logs
 | centos7 | CentOS 7.x | 2.x | 7.1 |
 
 
+## Versions: [versions.txt](./versions.txt)
+
+## PHPINFO: [phpinfo.txt](./phpinfo.txt)
+
