@@ -1,15 +1,15 @@
 # About LAP7 (Linux + Apache + PHP7)
 
-Linux + Apache + PHP7 environment.
+Linux(CentOS7) + Apache + PHP7 environment.
 
 # Install
 
-`docker pull clarencep/lap7`
+`docker pull clarencep/lap7:centos7`
 
 
 # Run
 
-`docker run -d clarencep/lap7`
+`docker run -d clarencep/lap7:centos7`
 
 Note: since `SIGWINCH` is used by apache2 to gracefully stop, 
 while `docker run -it` without `-d` will emit `SIGWINCH` , 
@@ -25,3 +25,7 @@ As the main `apache2` process doesn't output any logs, if you wanna see the logs
 `docker exec <container-name> sh -c "tail -f /var/log/apache2/*"`
 
 
+
+## Versions: [versions.txt](./versions.txt)
+
+## PHPINFO: [phpinfo.txt](./phpinfo.txt)
