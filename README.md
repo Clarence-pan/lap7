@@ -25,3 +25,7 @@ As the main `apache2` process doesn't output any logs, if you wanna see the logs
 `docker exec <container-name> sh -c "tail -f /var/log/apache2/*"`
 
 
+
+## Versions: [versions.txt](./versions.txt)
+
+## PHPINFO: [phpinfo.txt](./phpinfo.txt)
