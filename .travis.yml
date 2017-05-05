@@ -14,5 +14,7 @@ before_script:
   - docker ps -a
 
 script:
-  - docker run -d -p 8080:80 clarencep/lap7
-  - curl -v --retry 5 --retry-delay 2 http://localhost:8080/
+  - docker run -d -p 8080:80 --name test clarencep/lap7
+  - docker ps 
+  - docker exec test ps -elf
+  - curl -v http://localhost:8080/ || curl -v http://localhost:8080/ || curl -v http://localhost:8080/
