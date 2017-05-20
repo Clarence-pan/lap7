@@ -1,7 +1,7 @@
 phpinfo()
 PHP Version => 7.1.3
 
-System => Linux 174ba816267a 4.9.13-moby #1 SMP Sat Mar 25 02:48:44 UTC 2017 x86_64
+System => Linux 7e337f2ed018 4.9.13-moby #1 SMP Sat Mar 25 02:48:44 UTC 2017 x86_64
 Build Date => Mar 19 2017 15:31:28
 Server API => Command Line Interface
 Virtual Directory Support => disabled
@@ -875,7 +875,7 @@ Environment
 
 Variable => Value
 PATH => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-HOSTNAME => 174ba816267a
+HOSTNAME => 7e337f2ed018
 PHP_VERSION => 7.1
 HOME => /root
 
@@ -883,7 +883,7 @@ PHP Variables
 
 Variable => Value
 $_SERVER['PATH'] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-$_SERVER['HOSTNAME'] => 174ba816267a
+$_SERVER['HOSTNAME'] => 7e337f2ed018
 $_SERVER['PHP_VERSION'] => 7.1
 $_SERVER['HOME'] => /root
 $_SERVER['PHP_SELF'] => 
@@ -891,8 +891,8 @@ $_SERVER['SCRIPT_NAME'] =>
 $_SERVER['SCRIPT_FILENAME'] => 
 $_SERVER['PATH_TRANSLATED'] => 
 $_SERVER['DOCUMENT_ROOT'] => 
-$_SERVER['REQUEST_TIME_FLOAT'] => 1493966599.7211
-$_SERVER['REQUEST_TIME'] => 1493966599
+$_SERVER['REQUEST_TIME_FLOAT'] => 1495273982.162
+$_SERVER['REQUEST_TIME'] => 1495273982
 $_SERVER['argv'] => Array
 (
 )
