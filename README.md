@@ -9,7 +9,7 @@ Linux(CentOS7) + Apache + PHP7 environment.
 
 # Run
 
-`docker run -d clarencep/lap7:centos7`
+`docker run -d -P --name test  clarencep/lap7:centos7`
 
 Note: since `SIGWINCH` is used by httpd to gracefully stop, 
 while `docker run -it` without `-d` will emit `SIGWINCH` , 
